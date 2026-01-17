@@ -3,5 +3,6 @@ import { env } from './env'
 
 export const qrc = new QdrantClient({
   url: env.QDRANT_URL,
-  timeout: 60000,
+  maxConnections: Infinity,
+  timeout: Infinity,
 })
