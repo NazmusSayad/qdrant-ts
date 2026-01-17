@@ -23,22 +23,22 @@ export const bookData: BookData[] = [
     description:
       "A Chinese novel tracing one man's life through decades of upheaval and social change.",
   },
-  {
-    title: 'War and Peace',
-    author: 'Leo Tolstoy',
-    description:
-      'A Russian epic about families and history during the Napoleonic wars.',
-  },
-  {
-    title: 'Jane Eyre',
-    author: 'Charlotte Bronte',
-    description:
-      "A British novel about an orphaned girl's resilience and moral independence in 19th century England.",
-  },
-  {
-    title: 'Cry, the Beloved Country',
-    author: 'Alan Paton',
-    description:
-      "A South African novel exploring a country's divisions through a father's search for his son.",
-  },
+  // {
+  //   title: 'War and Peace',
+  //   author: 'Leo Tolstoy',
+  //   description:
+  //     'A Russian epic about families and history during the Napoleonic wars.',
+  // },
+  // {
+  //   title: 'Jane Eyre',
+  //   author: 'Charlotte Bronte',
+  //   description:
+  //     "A British novel about an orphaned girl's resilience and moral independence in 19th century England.",
+  // },
+  // {
+  //   title: 'Cry, the Beloved Country',
+  //   author: 'Alan Paton',
+  //   description:
+  //     "A South African novel exploring a country's divisions through a father's search for his son.",
+  // },
 ]
