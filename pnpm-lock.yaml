@@ -8,9 +8,6 @@ importers:
 
   .:
     dependencies:
-      '@qdrant/js-client-grpc':
-        specifier: ^1.16.2
-        version: 1.16.2(typescript@5.9.3)
       '@qdrant/js-client-rest':
         specifier: ^1.16.2
         version: 1.16.2(typescript@5.9.3)
@@ -41,21 +38,6 @@ importers:
         version: 5.9.3
 
 packages:
-
-  '@bufbuild/protobuf@2.10.2':
-    resolution: {integrity: sha512-uFsRXwIGyu+r6AMdz+XijIIZJYpoWeYzILt5yZ2d3mCjQrWUTVpVD9WL/jZAbvp+Ed04rOhrsk7FiTcEDseB5A==}
-
-  '@connectrpc/connect-node@2.1.1':
-    resolution: {integrity: sha512-s3TfsI1XF+n+1z6MBS9rTnFsxxR4Rw5wmdEnkQINli81ESGxcsfaEet8duzq8LVuuCupmhUsgpRo0Nv9pZkufg==}
-    engines: {node: '>=20'}
-    peerDependencies:
-      '@bufbuild/protobuf': ^2.7.0
-      '@connectrpc/connect': 2.1.1
-
-  '@connectrpc/connect@2.1.1':
-    resolution: {integrity: sha512-JzhkaTvM73m2K1URT6tv53k2RwngSmCXLZJgK580qNQOXRzZRR/BCMfZw3h+90JpnG6XksP5bYT+cz0rpUzUWQ==}
-    peerDependencies:
-      '@bufbuild/protobuf': ^2.7.0
 
   '@emnapi/runtime@1.8.1':
     resolution: {integrity: sha512-mehfKSMWjjNol8659Z8KxEMrdSJDDot5SXMq00dM8BN4o+CLNXQ0xH2V7EchNHV4RmbZLmmPdEaXZc5H2FXmDg==}
@@ -353,12 +335,6 @@ packages:
     cpu: [x64]
     os: [win32]
 
-  '@qdrant/js-client-grpc@1.16.2':
-    resolution: {integrity: sha512-NoAL2Lga2lHli/U17YP2OLZLF5PqVIBg+COnSbQK0LZcKzoqzcqxZLQ4uGJnlM9ud0QeqQRFSNHcOo2U95uzjg==}
-    engines: {node: '>=18.0.0', pnpm: '>=8'}
-    peerDependencies:
-      typescript: '>=4.1'
-
   '@qdrant/js-client-rest@1.16.2':
     resolution: {integrity: sha512-Zm4wEZURrZ24a+Hmm4l1QQYjiz975Ep3vF0yzWR7ICGcxittNz47YK2iBOk8kb8qseCu8pg7WmO1HOIsO8alvw==}
     engines: {node: '>=18.17.0', pnpm: '>=8'}
@@ -438,17 +414,6 @@ packages:
     resolution: {integrity: sha512-k7Nwx6vuWx1IJ9Bjuf4Zt1PEllcwe7cls3VNzm4CQ1/hgtFUK2bRNG3rvnpPUhFjmqJKAKtjV576KnUkHocg/g==}
 
 snapshots:
-
-  '@bufbuild/protobuf@2.10.2': {}
-
-  '@connectrpc/connect-node@2.1.1(@bufbuild/protobuf@2.10.2)(@connectrpc/connect@2.1.1(@bufbuild/protobuf@2.10.2))':
-    dependencies:
-      '@bufbuild/protobuf': 2.10.2
-      '@connectrpc/connect': 2.1.1(@bufbuild/protobuf@2.10.2)
-
-  '@connectrpc/connect@2.1.1(@bufbuild/protobuf@2.10.2)':
-    dependencies:
-      '@bufbuild/protobuf': 2.10.2
 
   '@emnapi/runtime@1.8.1':
     dependencies:
@@ -628,13 +593,6 @@ snapshots:
 
   '@img/sharp-win32-x64@0.34.5':
     optional: true
-
-  '@qdrant/js-client-grpc@1.16.2(typescript@5.9.3)':
-    dependencies:
-      '@bufbuild/protobuf': 2.10.2
-      '@connectrpc/connect': 2.1.1(@bufbuild/protobuf@2.10.2)
-      '@connectrpc/connect-node': 2.1.1(@bufbuild/protobuf@2.10.2)(@connectrpc/connect@2.1.1(@bufbuild/protobuf@2.10.2))
-      typescript: 5.9.3
 
   '@qdrant/js-client-rest@1.16.2(typescript@5.9.3)':
     dependencies:

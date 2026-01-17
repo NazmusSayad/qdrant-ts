@@ -6,7 +6,6 @@
     "dev": "tsx --watch ./src/index.ts"
   },
   "dependencies": {
-    "@qdrant/js-client-grpc": "^1.16.2",
     "@qdrant/js-client-rest": "^1.16.2",
     "dotenv": "^17.2.3",
     "sharp": "^0.34.5",
